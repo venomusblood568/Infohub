@@ -1,0 +1,23 @@
+{
+    "manifest_version":3,
+    "name":"InfoHub",
+    "version":"1.0",
+    "description":"Your go-to extension to store and access all your info.",
+    "action":{
+        "default_popup":"popup.html",
+        "default_icon":{
+            "48":"icons/cube_14628979.png"
+        }
+    },
+    "background":{
+        "service_worker":"bg.js"
+    },
+    "permissions":[
+        "storage",
+        "tabs"
+    ],
+    "icons":{
+        "48":"icons/cube_14628979.png"
+    }
+
+}
