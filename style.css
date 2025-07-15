@@ -10,25 +10,30 @@
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background: #3E3E3E; /* dark gray background */
+    align-items: justify-start;
+    background: linear-gradient(to left, #DFE0E2, #B8BCC3, #787A84);
     font-family: 'Inter', Arial, sans-serif;
+    padding: 40px 0;
+    overflow-y: auto;
+
 }
 
   
   .container {
     width: 450px;
-    padding: 30px 25px;
+    padding: 30px 25px 80px;
     border-radius: 14px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     text-align: center;
+    padding-bottom: 80px;
+
   }
   
   h2 {
     font-size: 2.4rem;
     font-weight: 700;
     margin-bottom: 30px;
-    color:#e94f37;
+    color:#1f1f1;
   }
   .input-row {
     display: flex;
@@ -71,7 +76,7 @@
   }
   
   .saved-item {
-    display: flex;
+    display: flex ;
     justify-content: space-between;
     align-items: center;
     background:#646363 ;
@@ -79,6 +84,7 @@
     border-radius: 8px;
     gap: 12px;
     margin-top: 10px;
+    
   }
   
   .saved-text {
@@ -87,6 +93,7 @@
     flex-grow: 1;
     text-align: left;
     word-break: break-word;
+    padding-bottom:10px;
   }
   
   .saved-item .icons {
